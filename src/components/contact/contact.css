@@ -1,0 +1,21 @@
+.contact_desc {
+    margin-top: -5rem;
+    text-align: center;
+    font-size: 24px;
+    color: #AAB2CE;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.socials_contact {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin: 1.5rem 0;
+    
+}
