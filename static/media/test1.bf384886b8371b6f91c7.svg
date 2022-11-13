@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title>dots-bg</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Personal-1-mixed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+    <g transform="translate(-350.000000, -990.000000)" fill="#656360" id="about">
+      <g transform="translate(350.000000, 990.000000)">
+        <g id="section-title">
+          <g id="dots-bg">
+            <rect id="Circle" x="0" y="0" width="6" height="6" rx="2" style="fill: rgb(255, 209, 92); paint-order: fill;"/>
+            <rect id="Circle-Copy" x="11" y="0" width="6" height="6" rx="2" style="fill: rgb(255, 76, 96);"/>
+            <rect id="Circle-Copy-2" x="22" y="0" width="6" height="6" rx="2" style="fill: rgb(108, 108, 229);"/>
+            <rect id="Circle-Copy-3" x="33" y="0" width="6" height="6" rx="2" style="fill: rgb(68, 215, 182);"/>
+            <rect id="Circle-Copy-7" x="0" y="11" width="6" height="6" rx="2" style="fill: rgb(255, 209, 92);"/>
+            <rect id="Circle-Copy-4" x="11" y="11" width="6" height="6" rx="2" style="fill: rgb(255, 76, 96);"/>
+            <rect id="Circle-Copy-5" x="22" y="11" width="6" height="6" rx="2" style="fill: rgb(108, 108, 229);"/>
+            <rect id="Circle-Copy-6" x="33" y="11" width="6" height="6" rx="2" style="fill: rgb(68, 215, 182);"/>
+            <rect id="Circle-Copy-14" x="0" y="22" width="6" height="6" rx="2" style="fill: rgb(255, 209, 92);"/>
+            <rect id="Circle-Copy-16" x="11" y="22" width="6" height="6" rx="2" style="fill: rgb(255, 76, 96);"/>
+            <rect id="Circle-Copy-13" x="22" y="22" width="6" height="6" rx="2" style="fill: rgb(108, 108, 229);"/>
+            <rect id="Circle-Copy-12" x="33" y="22" width="6" height="6" rx="2" style="fill: rgb(68, 215, 182);"/>
+            <rect id="Circle-Copy-11" x="0" y="33" width="6" height="6" rx="2" style="fill: rgb(255, 209, 92);"/>
+            <rect id="Circle-Copy-10" x="11" y="33" width="6" height="6" rx="2" style="fill: rgb(255, 76, 96);"/>
+            <rect id="Circle-Copy-9" x="22" y="33" width="6" height="6" rx="2" style="fill: rgb(108, 108, 229);"/>
+            <rect id="Circle-Copy-8" x="33" y="33" width="6" height="6" rx="2" style="fill: rgb(68, 215, 182);"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
