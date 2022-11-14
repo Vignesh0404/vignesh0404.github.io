@@ -122,7 +122,8 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  margin-left: -10rem; /* 2.25rem or 4.45*/
+  padding-left: 2%; 
+  margin-left: -8rem;  /*2.25rem or 4.45*/
   font-weight: var(--font-bold);
   position: relative;
   margin-bottom: 4.5rem;
@@ -130,6 +131,7 @@ img {
 
 .section__title::before {
   content: '';
+  padding-left: 2%; 
   background: url(./assets/test1.svg);
   height: 2.5rem;
   width: 2.5rem;
