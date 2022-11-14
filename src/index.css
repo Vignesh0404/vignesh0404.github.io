@@ -90,7 +90,6 @@ img {
 
 }
 
-/*-- Responsive CSS -- */
 @media screen and(max-width: 1024px) {
   :root {
     --h1-font-size: 1.75rem;
@@ -102,12 +101,11 @@ img {
   }
 }
 
-/*-- Reusable CSS -- */
 
 .container {
   max-width: 1080px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
 }
 
@@ -118,6 +116,7 @@ img {
 .section {
   padding-top: 7rem;
   padding-bottom: 2rem;
+  padding-left: 2rem;
 }
 
 .section__title {
@@ -178,7 +177,6 @@ img {
   animation: button-push 0.3s linear 1;
 }
 
-/*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
   background-color: var(--body-color);
