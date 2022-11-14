@@ -35,7 +35,7 @@ const Home = () => {
             .typeString("UX/UI Generalist")
             .pauseFor(2000)
             .deleteAll()
-            .typeString("A11y Designer")
+            .typeString("Product Designer")
             .pauseFor(2000)
             .start()
           }}
