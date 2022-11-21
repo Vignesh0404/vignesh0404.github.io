@@ -14,9 +14,9 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description"> 
-            Welcome! I'm an enthusiastic, aspiring developer who adores working on fresh initiatives and meeting new individuals. I've worked as a software developer for a year, designing & developing full stack mobile applications.
+            Welcome! I'm an enthusiastic, aspiring product designer who yearns working on fresh initiatives and meeting new individuals. I've worked as a software developer for a year, designing & developing full stack mobile applications.
             I really believe that the best lessons and experiences in life come from stepping outside of one's comfort zone and trying new things. I'm pursuing my Masters in Information Science at  <span style={{color: "#5fc9e1", fontWeight: "bold"}}> The University of Texas at Austin</span>, where I hope to learn more about different areas of software engineering like UX/UI, Data Science, and product project management.
-            I believe that in order to advance as a software engineer, it is critical to possess a solid understanding of various fields that are linked to the software life cycle. 
+            I believe that in order to advance as an engineer in the field of software, it is critical to possess a solid understanding of various fields that are linked to the software life cycle. 
             
             </p>
             <div className="spacer__bottom">

@@ -29,14 +29,12 @@ const Home = () => {
           delay: 75,
         }}
           onInit={(typeWriter)=> {
-            typeWriter.typeString("Full Stack Developer")
+            typeWriter.typeString("Product Designer")
             .pauseFor(2000)
             .deleteAll()
-            .typeString("UX/UI Generalist")
+            .typeString("Full Stack Developer")
             .pauseFor(2000)
             .deleteAll()
-            .typeString("Product Designer")
-            .pauseFor(2000)
             .start()
           }}
         

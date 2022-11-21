@@ -19,7 +19,13 @@ import Mysql from '../../assets/skills/sql.svg';
 import GraphQl from '../../assets/skills/graphql.svg';
 import Hasura from '../../assets/skills/hasura.svg';
 import Firebase from '../../assets/skills/firebase.svg';
-
+import D1 from '../../assets/skills/d1.svg';
+import D2 from '../../assets/skills/d2.svg';
+import D3 from '../../assets/skills/d3.svg';
+import D4 from '../../assets/skills/d4.svg';
+import D5 from '../../assets/skills/d5.svg';
+import D6 from '../../assets/skills/d6.svg';
+import D7 from '../../assets/skills/d7.svg';
 
 
 /*
@@ -35,6 +41,20 @@ const Skills = () => {
         <h3 className='skills_desc'>I like to take responsibility to craft aesthetic and accessible user experience using state of the art framework.
         </h3>
 
+        <h2 className='skills_head'> USER EXPERIENCE DESIGN TOOLS & METHODOLOGIES
+        </h2>
+        <div className='skillsContainer'>
+          <div className='skills'>
+            <img src={D4} alt="" className='skills_img' />
+            <img src={D2} alt="" className='skills_img' />
+            <img src={D1} alt="" className='skills_img' />
+            <img src={D7} alt="" className='skills_img' />
+            {/* <img src={D5} alt="" className='skills_img' /> */}
+            <img src={D3} alt="" className='skills_img' />
+            <img src={D6} alt="" className='skills_img' />
+          </div>  
+        </div>
+
         <h2 className='skills_head'> PROGRAMMING LANGUAGES
         </h2>
         <div className='skillsContainer'>
@@ -49,7 +69,7 @@ const Skills = () => {
           </div>  
         </div>
         
-        <h2 className='skills_head'> TOOLS & FRAMEWORKS
+        <h2 className='skills_head'> DEV TOOLS & FRAMEWORKS
         </h2>
         <div className='skillsContainer'>
           <div className='skills'>

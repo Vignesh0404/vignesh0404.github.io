@@ -6,8 +6,8 @@ import WorkData from './workData';
 const Work = () => {
   
   // const mobileData = WorkData.category === "Mobile";
-  const[items, setItems] = useState(WorkData.filter(data => data.category === 'Mobile'));
-  const [activeLink, setActiveLink] = useState('Mobile');
+  const[items, setItems] = useState(WorkData.filter(data => data.category === 'UX/UI'));
+  const [activeLink, setActiveLink] = useState('UX/UI');
 
   // const items1 = items.category === "Mobile";
 
@@ -31,34 +31,36 @@ const Work = () => {
     <div className="work__filters">
       {/* <span className="work__item" onClick={()=> setItems(WorkData)}>All categories</span> */}
 
-      <span className={activeLink === 'Mobile' ? "work__item__active" : "work__item"} 
-      onClick={()=>{
-        filterItem("Mobile");
-        onUpdateActiveLink("Mobile");
-      }}>Mobile</span>
-
-
-      <span className={activeLink === 'Web' ? "work__item__active" : "work__item"} 
-      onClick={()=>{
-        filterItem("Web");
-        onUpdateActiveLink("Web");
-      }}>Web</span>
-
-
-      {/* <span className="work__item" onClick={()=> filterItem("ML")}>ML</span> */}
-
-
       <span className={activeLink === 'UX/UI' ? "work__item__active" : "work__item"} 
       onClick={()=>{
         filterItem("UX/UI");
         onUpdateActiveLink("UX/UI");
       }}>UX/UI</span>
 
+      <span className={activeLink === 'Mobile Dev' ? "work__item__active" : "work__item"} 
+      onClick={()=>{
+        filterItem("Mobile Dev");
+        onUpdateActiveLink("Mobile Dev");
+      }}>Mobile Dev</span>
+
+
+      <span className={activeLink === 'Web Dev' ? "work__item__active" : "work__item"} 
+      onClick={()=>{
+        filterItem("Web Dev");
+        onUpdateActiveLink("Web Dev");
+      }}>Web Dev</span>
+
+
+      {/* <span className="work__item" onClick={()=> filterItem("ML")}>ML</span> */}
+
+
+      
+
     </div>
 
     <div className="work__container grid">
       {items.map((element) => {
-        const {title, desc, number, url} = element;
+        const {title, desc, number, url, stack} = element;
         
         // if(element.category === "Mobile"){
         //   return(
@@ -80,7 +82,7 @@ const Work = () => {
             
             <h2 className='work__card__title'>{title}</h2>
             <h4 className='work__card__desc'>{desc}</h4>
-            {/* <p className='work__card__stack'>{category}</p> */}
+            <p className='work__card__stack'>{stack}</p>
           </div>
           // <div className='work__card' key = {id}>
           //   <div className="work__thumbnail">
