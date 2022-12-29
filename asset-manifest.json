@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1c2e00ce.css",
-    "main.js": "/static/js/main.7f7b6db1.js",
+    "main.js": "/static/js/main.f8388be8.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/AvatarMaker1.svg": "/static/media/AvatarMaker1.548165150a024b89c7fc41fbd1770a5a.svg",
     "static/media/flask.svg": "/static/media/flask.d1c0a9d509abeac770f1d815c13f7eb1.svg",
@@ -34,11 +34,11 @@
     "static/media/flutter.svg": "/static/media/flutter.bd8ec1ed38a1c5ea171bd38e85165122.svg",
     "static/media/logo-1.svg": "/static/media/logo-1.3b7f7cb79b8267227c330a4c8e66f328.svg",
     "main.1c2e00ce.css.map": "/static/css/main.1c2e00ce.css.map",
-    "main.7f7b6db1.js.map": "/static/js/main.7f7b6db1.js.map",
+    "main.f8388be8.js.map": "/static/js/main.f8388be8.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c2e00ce.css",
-    "static/js/main.7f7b6db1.js"
+    "static/js/main.f8388be8.js"
   ]
 }
