@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0100e58.css",
+    "main.css": "/static/css/main.96b42317.css",
     "main.js": "/static/js/main.db2bfd84.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/viggy_yellow.png": "/static/media/viggy_yellow.9553882b59a8171f8a99.png",
@@ -34,12 +34,12 @@
     "static/media/d7.svg": "/static/media/d7.9c28984708c4d90dd898c6c36af66392.svg",
     "static/media/flutter.svg": "/static/media/flutter.bd8ec1ed38a1c5ea171bd38e85165122.svg",
     "static/media/logo-1.svg": "/static/media/logo-1.3b7f7cb79b8267227c330a4c8e66f328.svg",
-    "main.c0100e58.css.map": "/static/css/main.c0100e58.css.map",
+    "main.96b42317.css.map": "/static/css/main.96b42317.css.map",
     "main.db2bfd84.js.map": "/static/js/main.db2bfd84.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0100e58.css",
+    "static/css/main.96b42317.css",
     "static/js/main.db2bfd84.js"
   ]
 }
