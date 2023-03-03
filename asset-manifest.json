@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8a0abde.css",
-    "main.js": "/static/js/main.a0c01ece.js",
+    "main.css": "/static/css/main.7001948d.css",
+    "main.js": "/static/js/main.8364ddd5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/dineout.png": "/static/media/dineout.f0b901de0f8feff779f7.png",
     "static/media/deliverit.png": "/static/media/deliverit.9d0424a5ab09a33b5455.png",
@@ -10,6 +10,7 @@
     "static/media/rms.png": "/static/media/rms.e10a24d2974cd2e297b9.png",
     "static/media/viggy_yellow.png": "/static/media/viggy_yellow.9553882b59a8171f8a99.png",
     "static/media/spotify.png": "/static/media/spotify.75dde28f122d0a808158.png",
+    "static/media/a11y.png": "/static/media/a11y.81a063dae742aae69b85.png",
     "static/media/AvatarMaker1.svg": "/static/media/AvatarMaker1.548165150a024b89c7fc41fbd1770a5a.svg",
     "static/media/flask.svg": "/static/media/flask.d1c0a9d509abeac770f1d815c13f7eb1.svg",
     "static/media/sql.svg": "/static/media/sql.acc29e9b29c31cea7861c620171b8b14.svg",
@@ -40,12 +41,12 @@
     "static/media/d7.svg": "/static/media/d7.9c28984708c4d90dd898c6c36af66392.svg",
     "static/media/flutter.svg": "/static/media/flutter.bd8ec1ed38a1c5ea171bd38e85165122.svg",
     "static/media/logo-1.svg": "/static/media/logo-1.3b7f7cb79b8267227c330a4c8e66f328.svg",
-    "main.b8a0abde.css.map": "/static/css/main.b8a0abde.css.map",
-    "main.a0c01ece.js.map": "/static/js/main.a0c01ece.js.map",
+    "main.7001948d.css.map": "/static/css/main.7001948d.css.map",
+    "main.8364ddd5.js.map": "/static/js/main.8364ddd5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8a0abde.css",
-    "static/js/main.a0c01ece.js"
+    "static/css/main.7001948d.css",
+    "static/js/main.8364ddd5.js"
   ]
 }
