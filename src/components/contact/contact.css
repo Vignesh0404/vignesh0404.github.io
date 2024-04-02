@@ -1,7 +1,8 @@
 .contact_desc {
-    margin-top: -5rem;
+    margin-top: -6rem;
+    margin-left: -7.5rem;
     text-align: center;
-    font-size: 24px;
+    font-size: var(--h3-font-size);
     color: #AAB2CE;
     font-weight: 300;
     margin-bottom: 0.5rem;
@@ -11,11 +12,24 @@
 }
 
 .socials_contact {
+    margin-top: 1rem;
+    margin-left: -8rem;
     margin-top: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 1.5rem;
-    margin: 1.5rem 0;
+    /* margin: 1.5rem 0; */
     
+}
+
+@media screen and (max-width: 576px) {
+    .contact_desc {
+        margin-left: -0.5rem;
+    }
+    
+    .socials_contact {
+        margin-left: -0.5rem;
+        
+    }  
 }

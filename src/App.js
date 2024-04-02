@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import HashLoader from "react-spinners/HashLoader";
 import './App.css';
 import SideBar from './components/sidebar/sidebar';
-import Home from './components/home/home';
+import NavBar from './components/navBar/navBar';
+
+import Home1 from './components/home1/home1';
 import About from './components/about/about';
 import Work from './components/work/work';
 import Skills from './components/skills/skills';
@@ -66,15 +68,16 @@ const App = () => {
     </>
      :
         <>
-          <SideBar />
+          <NavBar />
           
           <main className='main'>
           {component}
-            <Home />
+            <Home1 />
+            <Work />
             <About />
             <Skills />
             <Timeline />
-            <Work />
+            
             <Contact />
             </main>
         </>

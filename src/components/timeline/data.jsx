@@ -5,7 +5,7 @@ const TimelineData = [
         year: "Nov 2021 - May 2022",
         icon: "icon-briefcase",
         title: "Software Engineer",
-        desc: "Developed user interfaces and flutter-based packages that are combined with the proprietary AI is one of the responsibilities as part of the core team.",
+        desc: "Developed, designed user interfaces and a flutter-based package that are coupled with the company's proprietary AI were few of the responsibilities I worked on as part of the core team.",
         keywords: "Willow.ai"
         
     },
@@ -16,7 +16,7 @@ const TimelineData = [
         year: "Mar 2021 - Oct 2021",
         icon: "icon-briefcase",
         title: "Software Engineer",
-        desc: "Designed, Developed, and Managed mobile applications for hospitals in and around Chennai to automate doctor-patient experiences and also to improve the retention.",
+        desc: "Designed, Developed, and Managed mobile applications for hospitals in and around Chennai to automate & streamline doctor-patient experiences.",
         keywords: "Mocero Health Solutions, IIT Madras"
         
     },
@@ -40,7 +40,7 @@ const TimelineData = [
         year: "Aug 2020 - Oct 2020",
         icon: "icon-briefcase",
         title: "Research Intern",
-        desc: "Assisted and modeled a mobile application using Flutter with OpenCV & Neural Network techniques to implement the prof's thesis on assessing mental anxiety during surgical procedures.",
+        desc: "Assisted & Modeled in implementing the professor's thesis on evaluating mental anxiety during surgical operations. Developed a mobile application using Flutter with OpenCV & Neural Network approaches.",
         keywords: "Dr. Raghavendra M Shetty, Ajman University"
         
     },
@@ -51,7 +51,7 @@ const TimelineData = [
         year: "Dec 2019 - Mar 2020",
         icon: "icon-briefcase",
         title: "Software Developer Intern",
-        desc: "Tutored Python and Web Development coureses for kids of age 8-14.",
+        desc: "Tutored Python and Web Development courses for kids of age 8-14.",
         keywords: "Hatch School of Code"
         
     },
@@ -62,7 +62,7 @@ const TimelineData = [
         year: "Jun 2019 - Nov 2019",
         icon: "icon-briefcase",
         title: "Software Developer Intern",
-        desc: "Coordinated a 6 - member team that worked on Migrating from Legacy systems, automating data entry, Redefining Online Presence.",
+        desc: "Supervised a six-person team that focused on redefining online presence, automating data entry, and migrating from legacy systems.",
         keywords: "Bhumi NGO, Tech4Change"
         
     }

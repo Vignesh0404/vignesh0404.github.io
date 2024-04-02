@@ -1,3 +1,10 @@
+import Img1 from "../../assets/work/deliverit.png";
+import Img2 from "../../assets/work/storeWell.png";
+import Img3 from "../../assets/work/rms.png";
+import Img4 from "../../assets/work/spotify.png";
+import Img5 from "../../assets/work/dineout.png";
+import Img6 from "../../assets/work/quiz.png";
+import Img7 from "../../assets/work/a11y.png";
 
 
 const WorkData = [
@@ -35,7 +42,7 @@ const WorkData = [
         category: "Web Dev",
         number: "04.",
         stack: "Html5 • CSS • JS • MySql • PHP" ,
-        url: "https://github.com/bearlike/Donation-Web Devsite"    
+        url: "https://github.com/bearlike/Donation-Website"    
     },
 
     {
@@ -113,53 +120,86 @@ const WorkData = [
     },
 
 
-    /* UX/UI */
+    /* Case Studies */
 
     {
         title: "Deliver IT",
-        desc: "Deliver IT is a mobile application that serves as a platform that lets users send and receive local deliveries on the same day.",
-        category: "UX/UI",
+        desc: "An application that lets users send and receive local deliveries on the same day in 5 clicks.",
+        category: "Case Studies",
         number: "01.",
-        stack: "Mobile • Figma" ,
-        url: "https://www.figma.com/proto/PbUG1k2gdhFwmjTvjvzVLa/Deliver-IT?page-id=0%3A1&node-id=1%3A2&viewport=512%2C5468%2C0.26&scaling=scale-down-width"    
+        stack: "Individual • Figma" ,
+        url: "https://www.figma.com/proto/PbUG1k2gdhFwmjTvjvzVLa/Deliver-IT?page-id=0%3A1&node-id=1%3A2&viewport=512%2C5468%2C0.26&scaling=scale-down-width",
+        img: Img1    
     },
 
     {
         title: "RMS Scales",
-        desc: "As part of my Research Internship under Dr Ragavendara Shetty's tutelage, designed and developed his thesis on dental anxiety.",
-        category: "UX/UI",
+        desc: "As part of my Research Internship, devised an application to assess dental anxiety.",
+        category: "Case Studies",
         number: "02.",
-        stack: "Mobile • Figma" ,
-        url: "https://www.figma.com/proto/OBlcS9BuOMtVTXeTC9e8kR/RMS-Scales?page-id=0%3A1&node-id=1%3A2&viewport=526%2C365%2C0.02&scaling=scale-down-width"    
+        stack: "Individual • Figma" ,
+        url: "https://www.figma.com/proto/OBlcS9BuOMtVTXeTC9e8kR/RMS-Scales?page-id=0%3A1&node-id=1%3A2&viewport=526%2C365%2C0.02&scaling=scale-down-width",
+        img: Img3 
     },
+
+    {
+        title: "Store Well",
+        desc: "A project to improve habits around groceries and food. Part of the HCI course.",
+        category: "Case Studies",
+        number: "03.",
+        stack: "Team of 4 • Figma • Research" ,
+        url: "https://www.figma.com/proto/NrCYwsQDL03tW4o19ghifF/Store-well?page-id=0%3A1&node-id=27%3A352&viewport=-4490%2C1374%2C0.26&scaling=scale-down-width",
+        img: Img2 
+    },
+
 
     
 
+    
+
+    
+
+    /*Mini Work */
+
+
     {
-        title: "25 Days of Design",
-        desc: "To pursue my yearn to explore the field of UX/UI, I took up a sprint to design projects every day for 25 days. This is the compilation of the results.",
-        category: "UX/UI",
-        number: "03.",
-        stack: "Mobile • Figma" ,
-        url: "https://www.figma.com/proto/gTyNJq32oKmttK9jiJeOZQ/25-Days-of-Design?page-id=0%3A1&node-id=1%3A2&viewport=533%2C938%2C0.07&scaling=min-zoom"    
+        title: "Identifying Mismatches",
+        desc: "Observations without tools of a physical and digital A11y experience.",
+        category: "Mini work",
+        number: "01.",
+        stack: "Individual • Accessibility" ,
+        url: "https://drive.google.com/file/d/1z2wazNtGeVxL-uJCwqZZhXzWGvbVzzSM/view?usp=sharing"    ,
+        img: Img7
+    },
+
+    {
+        title: "Spotify",
+        desc: "Curated a study uncovering the pain points and re-designed a Retro themed version.",
+        category: "Mini work",
+        number: "02.",
+        stack: "Individual • Figma • Redesign" ,
+        url: "https://tinyurl.com/msfnvpyp",
+        img: Img4     
     },
 
     {
         title: "Dine Out",
-        desc: "Dine Out is a mobile-based application that aims to get users discounts every single time you go out to our partnered restaurants.",
-        category: "UX/UI",
-        number: "04.",
-        stack: "Mobile • Adobe xd" ,
-        url: "https://www.figma.com/proto/gkwUhpXKTthGtdZXwrCZcg/Dine-Out?page-id=0%3A1&node-id=1%3A2&viewport=526%2C365%2C0.02&scaling=scale-down-width"    
+        desc: "An application that aims to get discounts every single time users go out to restaurants.",
+        category: "Mini work",
+        number: "03.",
+        stack: "Individual • Adobe xd" ,
+        url: "https://www.figma.com/proto/gkwUhpXKTthGtdZXwrCZcg/Dine-Out?page-id=0%3A1&node-id=1%3A2&viewport=526%2C365%2C0.02&scaling=scale-down-width",
+        img: Img5     
     },
 
     {
-        title: "Quiz Application",
-        desc: "An simple mobile app built in collabration with my undergrad university for the students to test their technical/aptitude skills.",
-        category: "UX/UI",
-        number: "05.",
-        stack: "Mobile • Sketch" ,
-        url: "https://www.figma.com/proto/VnR6IjipVPEhkAG7mjBzbz/Quiz?page-id=0%3A1&node-id=1%3A3&viewport=526%2C365%2C0.02&scaling=scale-down-width"    
+        title: "Quizzer",
+        desc: "An application that helps the students to test their tech/aptitude skills.",
+        category: "Mini work",
+        number: "04.",
+        stack: "Individual • Sketch" ,
+        url: "https://www.figma.com/proto/VnR6IjipVPEhkAG7mjBzbz/Quiz?page-id=0%3A1&node-id=1%3A3&viewport=526%2C365%2C0.02&scaling=scale-down-width"    ,
+        img: Img6 
     },
 
 

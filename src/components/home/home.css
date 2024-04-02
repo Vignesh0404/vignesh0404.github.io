@@ -219,6 +219,50 @@
     top: 70%;
 }
 
+/* @media screen and (max-width: 1920px) {
+    .home__title {
+        text-align: start;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+    .home__name{
+        text-align: start;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .home__subtitle {
+        position: relative;
+        font-size: 1.5rem;
+        padding-left: 7rem;
+        font-weight: 300;
+        margin-bottom: 1.25rem;
+        margin-top: 1rem;
+        text-align: start;
+        justify-content: center;
+    }
+    
+    .home__subtitle::before {
+        content: '';
+        position:absolute;
+        width: 100px;
+        height: 1.5px;
+        background-color: antiquewhite;
+        left: 0;
+        top: 1rem;
+    }
+    .home__social-link {
+        color: var(--title-color);
+        font-size: 1.75rem;
+        transition: 0.3s;
+    }
+} */
+
 @media screen and (max-width: 1024px) {
 
     .home__social-link {
@@ -231,13 +275,69 @@
 }
 
 @media screen and (max-width: 576px) {
-    .s10 {
-        top: 45%;
-        right: 5%;
+    .home__title {
+        text-align: start;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        justify-content: center;
     }
+    .home__social-link {
+        color: var(--title-color);
+        font-size: 1.2rem;
+        transition: 0.3s;
+    }
+    .s10 {
+        top: 65%;
+        right: 4%;
+    }
+    .s11 {
+        bottom: 10%;
+        right: 12%;
+    }
+    .s9 {
+        left: 80%;
+    }
+    .s8 {
+        left: 80%;
+    }
+    .s6 {
+        bottom: 25%;
+    }
+    .s5 {
+        top: 25%;
+        left: 20%;
+    }
+    .s4 {
+        bottom:20%;
+        left: 15%;
+    }
+    .s3 {
+        bottom: 10%;
+        left: 5%;
+    }
+    .s2 {
+        bottom: 10%;
+        left: 90%;
+    }
+    .s12 {
+        left: 80%;
+        top: 55%;
+    }
+    
+    .s13 {
+        left: -5%;
+        top: 5%;
+    }
+
 }
 
 @media screen and (max-width: 350px) {
+    .home__title {
+        text-align: start;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
     .s10 {
         top: 45%;
         right: 5%;

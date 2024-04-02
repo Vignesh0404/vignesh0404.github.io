@@ -11,6 +11,15 @@ const Socials = () => {
         <i class="fa-brands fa-linkedin-in"></i>
         </a>
 
+        <a href="mailto:vignesh.s@utexas.edu" className="home__social-link" target="_blank" rel="noopener noreferrer">
+        <i class="fa-regular fa-envelope"></i>
+        </a>
+
+        <a href="https://www.behance.net/vigneshshankar5" className="home__social-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-behance"></i>
+        </a>
+
+
         <a href="https://www.instagram.com/vickx_10/" className="home__social-link" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-instagram"></i>
         </a>
@@ -19,13 +28,9 @@ const Socials = () => {
             <i class="fa-brands fa-dribbble"></i>
         </a>
 
-        <a href="https://www.behance.net/vigneshshankar5" className="home__social-link" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-behance"></i>
-        </a>
+        
 
-        <a href="mailto:vignesh.s@utexas.edu" className="home__social-link" target="_blank" rel="noopener noreferrer">
-        <i class="fa-regular fa-envelope"></i>
-        </a>
+        
         
         
 

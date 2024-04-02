@@ -19,6 +19,16 @@
     
 }
 
+.about__img {
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: -3rem;
+    margin-right: 6rem;
+    margin-top: -2rem;
+}
+
 .spacer__bottom {
     margin-top: 2rem;
 }
@@ -51,6 +61,7 @@
 .about__quote{
     font-size: 3.5rem;
     font-weight: var(--font-ExtraBold);
+    margin-left: -6rem;
     margin-bottom: 2.25rem;
     text-align: center;
     justify-content: center;
@@ -111,10 +122,14 @@
     .about__img {
         justify-content: center;
         text-align: center;
-        margin-left: 3.5rem;
+        margin-left: 10.5rem;
         
     }
 
+    .about__info{
+        font-size: var(--h3-font-size);
+        color: #000;
+    }
 
     .about__data {
         grid-template-columns: 400px;
@@ -122,6 +137,23 @@
         justify-content: center;
         row-gap: 1.875rem;
         margin-left: 4rem;
+    }
+    .about__description {
+        margin-left: 8%;
+        margin-right: 4%;
+        /* margin-bottom: 1rem; */
+        font-size: var(--h3-font-size);
+        text-align: justify;
+        color: #fff;
+    }
+    .about__quote1{
+        margin-left: 4%;
+        margin-right: 0.5%;
+        font-size: 0.9rem;
+    }
+    .about__quote{
+        font-size: 3rem;
+        margin-left: 0.1rem;
     }
 }
 
@@ -144,6 +176,9 @@
         justify-content: center;
         text-align: center;
         
+    }
+    .about__quote{
+        margin-left: 3rem;
     }
 }
 

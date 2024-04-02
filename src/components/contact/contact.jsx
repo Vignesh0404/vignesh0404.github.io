@@ -5,10 +5,10 @@ const Contact = () => {
   return (
     <section className='contact container section' id='contact'>
 
-      <h3 className='contact_desc'>Feel free to connect on social media.</h3>
+      <h3 className='contact_desc'>Get in touch, you can call me Vick if my name is hard to pro·nounce</h3>
       <div className="socials_contact">
-        <a href="https://github.com/Vignesh0404" className="button button--flex" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-github"></i>
+      <a href="mailto:vignesh.s@utexas.edu" className="button button--flex" target="_blank" rel="noopener noreferrer">
+        <i class="fa-regular fa-envelope"></i>
         </a>
 
         <a href="#contact" className="button button--flex" target="_blank" rel="noopener noreferrer">

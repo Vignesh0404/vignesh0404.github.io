@@ -57,8 +57,24 @@
 
 @media screen and (max-width: 576px) {
     .skills_desc{
-        margin-left: 3rem;
-        width: 80%;
+        margin-left: 0rem;
+        width: 100%;
+        /* font-size: small; */
+    }
+
+    .skills {
+        margin-left: -1.3rem;
+        /* margin-right: -1rem; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .skills_img {
+        align-items: flex-start;
+        margin-bottom: 4rem;
+        margin-right: 1rem;
+        height: 3rem;
+        width: 3rem;
     }
 
     /* .skillsContainer{

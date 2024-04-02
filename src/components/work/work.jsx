@@ -3,11 +3,12 @@ import './work.css';
 import WorkData from './workData';
 
 
+
 const Work = () => {
   
   // const mobileData = WorkData.category === "Mobile";
-  const[items, setItems] = useState(WorkData.filter(data => data.category === 'UX/UI'));
-  const [activeLink, setActiveLink] = useState('UX/UI');
+  const[items, setItems] = useState(WorkData.filter(data => data.category === 'Case Studies'));
+  const [activeLink, setActiveLink] = useState('Case Studies');
 
   // const items1 = items.category === "Mobile";
 
@@ -26,41 +27,29 @@ const Work = () => {
 
   return (
     <section className="work container section" id="work">
-    <h2 className='section__title'>Recent Works</h2>
+    <h2 className='section__title'>Recent Work</h2>
 
     <div className="work__filters">
-      {/* <span className="work__item" onClick={()=> setItems(WorkData)}>All categories</span> */}
-
-      <span className={activeLink === 'UX/UI' ? "work__item__active" : "work__item"} 
+      <span className={activeLink === 'Case Studies' ? "work__item__active" : "work__item"} 
       onClick={()=>{
-        filterItem("UX/UI");
-        onUpdateActiveLink("UX/UI");
-      }}>UX/UI</span>
+        filterItem("Case Studies");
+        onUpdateActiveLink("Case Studies");
+      }}>Case Studies</span>
 
-      <span className={activeLink === 'Mobile Dev' ? "work__item__active" : "work__item"} 
+
+
+      <span className={activeLink === 'Mini work' ? "work__item__active" : "work__item"} 
       onClick={()=>{
-        filterItem("Mobile Dev");
-        onUpdateActiveLink("Mobile Dev");
-      }}>Mobile Dev</span>
+        filterItem("Mini work");
+        onUpdateActiveLink("Mini work");
+      }}>Mini work</span>
 
-
-      <span className={activeLink === 'Web Dev' ? "work__item__active" : "work__item"} 
-      onClick={()=>{
-        filterItem("Web Dev");
-        onUpdateActiveLink("Web Dev");
-      }}>Web Dev</span>
-
-
-      {/* <span className="work__item" onClick={()=> filterItem("ML")}>ML</span> */}
-
-
-      
 
     </div>
 
     <div className="work__container grid">
       {items.map((element) => {
-        const {title, desc, number, url, stack} = element;
+        const {title, desc, number, url, stack, img} = element;
         
         // if(element.category === "Mobile"){
         //   return(
@@ -68,39 +57,57 @@ const Work = () => {
         //   );
         // }
         return(
-          <div className='work__card1'> 
-            <div className='work__card__header'>
+          <div className="work__card2">
+            <img src={img} alt=""></img>
+            <div className='work__card__header2'>
               <h1 className='work__card__number'>{number}</h1>
-              <li className="nav__list__1">
+              <h2 className='work__card__title2'>{title}</h2>
+              <h4 className='work__card__desc2'>{desc}</h4>
+              <li className="nav__list__2">
+              <p className='work__card__stack'>{stack}</p>
+                <a target="_blank" rel="noopener noreferrer" href={url} className="nav__link__2">
+                  <p>View Project</p>
+                  {/* <i class="fa-solid fa-link"></i> */}
+                </a>
+            </li>
+              {/* <p className='work__card__stack2'>{stack}</p> */}
+              {/* <li className="nav__list__1">
               <a target="_blank" rel="noopener noreferrer" href={url} className="nav__link__1">
               <i class="fa-solid fa-link"></i>
               </a>
-            </li>
+            </li> */}
               
             </div>
             
             
-            <h2 className='work__card__title'>{title}</h2>
+            {/* <h2 className='work__card__title'>{title}</h2>
             <h4 className='work__card__desc'>{desc}</h4>
-            <p className='work__card__stack'>{stack}</p>
+            <p className='work__card__stack'>{stack}</p> */}
+            
           </div>
-          // <div className='work__card' key = {id}>
-          //   <div className="work__thumbnail">
-          //     <img src={image} alt="" className="work__img" />
-          //     <div className='work__mask'></div>
-          //   </div>
-          //     <span className="work__category">{category}</span>
-          //     <h3 className='work__title'>{title}</h3>
-          //     <h4 className='work__desc'>{desc}</h4>
-          //     <a href="#" className="work__button">
-          //       <i className="icon-link work__button-icon"></i>
+          // <div className='work__card1'> 
+          //   <div className='work__card__header'>
+          //     <h1 className='work__card__number'>{number}</h1>
+          //     <li className="nav__list__1">
+          //     <a target="_blank" rel="noopener noreferrer" href={url} className="nav__link__1">
+          //     <i class="fa-solid fa-link"></i>
           //     </a>
+          //   </li>
+              
+          //   </div>
+            
+            
+          //   <h2 className='work__card__title'>{title}</h2>
+          //   <h4 className='work__card__desc'>{desc}</h4>
+          //   <p className='work__card__stack'>{stack}</p>
           // </div>
+  
         )
       })}
     </div>
     {/* <h1 className="work__quote_animation">Design User Experience Design User Interface</h1> */}
-    <h1 className="work__quote">Interested in <span style={{color: "#5fc9e1"}}>collaborating</span>?</h1>
+    {/* <h1 className="work__quote">Interested in <span style={{color: "#5fc9e1"}}>collaborating</span>?</h1> */}
+    {/* <h1 className="work__quote">Interested in <span style={{color: "#5fc9e1"}}>collaborating</span>?</h1> */}
   </section>
   )
 }

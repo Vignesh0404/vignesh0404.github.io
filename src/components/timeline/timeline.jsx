@@ -33,7 +33,7 @@ const Timeline = () => {
           })}
         </div>
       </div>
-      
+      <h1 className="work__quote">Interested in <span style={{color: "#5fc9e1"}}>collaborating</span>?</h1>
     </section>
   )
 }

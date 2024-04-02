@@ -32,7 +32,7 @@ const Home = () => {
             typeWriter.typeString("Product Designer")
             .pauseFor(2000)
             .deleteAll()
-            .typeString("Full Stack Developer")
+            .typeString("Software Developer")
             .pauseFor(2000)
             .deleteAll()
             .start()
@@ -48,7 +48,7 @@ const Home = () => {
       
       <ScrollDown />
       </div>
-      <Shapes />
+      {/* <Shapes /> */}
     </section>
   )
 }

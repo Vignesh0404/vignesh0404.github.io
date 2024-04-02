@@ -31,6 +31,7 @@ export const SideBar = () => {
             <li className="nav__item">
               <a href="#home" className= {activeLink === 'home' ? "active" : "nav__link"} onClick={() => onUpdateActiveLink('home')}>
                 <i className="icon-home"></i>
+                {/* <div className='title-nav'>Home</div> */}
               </a>
             </li>
 
